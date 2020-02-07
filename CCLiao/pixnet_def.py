@@ -7,7 +7,6 @@ from lxml import etree
 from bs4 import BeautifulSoup
 
 # 搜尋地區的連結，以及定義連線函數
-url = 'https://www.booking.com/searchresults.zh-tw.html?'  # 搜尋頁網址
 ss = requests.session()
 
 headers = {
